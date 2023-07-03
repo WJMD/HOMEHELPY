@@ -35,6 +35,8 @@
 .formulario__input{
     font-size: 1.2rem;
     padding: 2px 5px;
+    border-radius: 6px;
+    border: 1px solid;
 }
 
 .parrafo{
