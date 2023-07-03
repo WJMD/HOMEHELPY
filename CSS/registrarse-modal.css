@@ -1,0 +1,52 @@
+.registrarse.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #272627bd;
+    display: flex; 
+}
+
+.container__registro{
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 3em 2.5em;
+}
+
+.registrarse__generales{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.formulario{
+    display: grid;
+    gap: 1em;
+}
+
+.formulario__label{
+    font-size: 1.5rem;
+}
+
+.formulario__input{
+    font-size: 1.2rem;
+    padding: 2px 5px;
+}
+
+.parrafo{
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.parrafo__texto{
+    display: inline;
+}
+
+.parrafo__link{
+    color: #0043fc;
+    
+}

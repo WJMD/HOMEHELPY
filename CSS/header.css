@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background: #000;
+    color: #ffffff;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head__titulo{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__enlace{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.menu__enlace:hover{
+    text-decoration: underline;
+    color: #aaaaaa;
+}
+
+.registrarse__titulo{
+    font-size: 2.2em;
+}
