@@ -52,3 +52,16 @@
     color: #0043fc;
     
 }
+
+.button.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.btn__submit{
+    width: 200px;
+    height: 35px;
+    font-size: 1.2rem;
+    
+}
